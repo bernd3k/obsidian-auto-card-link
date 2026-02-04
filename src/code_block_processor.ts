@@ -94,6 +94,7 @@ export class CodeBlockProcessor {
     cardEl.addClass("auto-card-link-card");
     cardEl.setAttr("href", data.url);
     cardEl.setAttr("target", "_blank");
+    cardEl.setAttr("rel", "noopener noreferrer");
     containerEl.appendChild(cardEl);
 
     const mainEl = document.createElement("div");
